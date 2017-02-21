@@ -14,8 +14,8 @@ StateGame::StateGame(ProgramContext* _context)
 :context(_context)
 ,snake(Snake::Snake())
 ,fruit()
-,fps(1)
-,scale(0.25f)
+,fps(20)
+,scale(0.05f)
 ,border(false)
 {
 }

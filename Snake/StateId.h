@@ -1,5 +1,5 @@
 #pragma once
-struct StateId
+namespace StateId
 {
 	enum State {
 		menu,

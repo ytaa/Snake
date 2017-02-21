@@ -2,7 +2,7 @@
 #include <random>
 namespace rnd
 {
-	int rInt(const int& min, const int& max)
+	static int rInt(const int& min, const int& max)
 	{
 		std::mt19937 rng;
 		rng.seed(std::random_device()());
